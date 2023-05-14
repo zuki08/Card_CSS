@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Card CSS test</title>
+        <style>
+            .card{
+                position: relative;
+                float: left;
+                width: 15%;
+                margin: 10px;
+                box-shadow: 0px 2px 5px 0 rgb(71, 68, 68);
+                transition: 0.3s
+            }
+            .le-image{
+                position: relative;
+                width: 100%;
+                height: 40%;
+            }
+            .info{
+                padding-left: 2px;
+            }
+            .card:hover{
+                box-shadow: 2px 4px 8px 0 rgb(37, 36, 36);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <img src="Adam.png" class="le-image">
+            <div class="info">
+                <h4>Hermit</h4>
+                <p>CS @ UMass 2024</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Eric.png" class="le-image">
+            <div class="info">
+                <h4>Cat</h4>
+                <p>CS @ UMass 2023</p>
+            </div>
+        </div>
+    </body>
+</html>
